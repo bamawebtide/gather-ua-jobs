@@ -1,6 +1,6 @@
 # Gather UA Jobs
 
-This plugin was created by Rachel Carden. Please [use the issues area](https://github.com/bamawebtide/gather-ua-jobs/issues) to submit ideas and report any bugs.
+This plugin was created by [Rachel Carden](https://github.com/bamadesigner) ([@bamadesigner](https://twitter.com/bamadesigner)). Please [use the issues area](https://github.com/bamawebtide/gather-ua-jobs/issues) to submit ideas and report any bugs.
 
 ### Gathering UA Faculty Jobs
 This WordPress plugin "gathers" University of Alabama faculty jobs and allows you to be notified, via email, when jobs containing certain keywords are posted.
