@@ -165,7 +165,7 @@ class WebTide_Repo_Updater {
 
             // Display wrapper
             ?><div style="height:97%;margin:20px;padding:20px;border:1px solid #aaa;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;">
-            <h2>What's New in UA MyBama CAS Authentication<?php echo $new_version ? " v{$new_version}" : NULL; ?></h2><?php
+            <h2><?php _e( 'What\'s New' ); ?><?php echo $new_version ? " v{$new_version}" : NULL; ?></h2><?php
 
             // Get changelog data
             if ( $changelog = isset( $update_response->changelog ) ? $update_response->changelog : false ) {
