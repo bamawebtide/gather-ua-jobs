@@ -38,7 +38,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/webtide-repo-updater.php';
 
 // Initiate the updater
 // Parameters: the plugin ID/slug, the path to the main plugin file, and the version
-$webtide_repo_updater = new WebTide_Repo_Updater( 'gather-ua-jobs', 'gather-ua-jobs/gather-ua-jobs.php', 0.9 );
+$webtide_repo_updater = new WebTide_Repo_Updater( 'gather-ua-jobs', 'gather-ua-jobs/gather-ua-jobs.php', 1.0 );
 
 //! Takes care of refreshing the job feeds via URL query arguments
 add_action( 'plugins_loaded', 'gather_ua_jobs_url_refresh_feeds' );
